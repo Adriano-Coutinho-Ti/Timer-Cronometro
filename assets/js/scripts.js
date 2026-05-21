@@ -110,6 +110,7 @@ function star() {
     playButton.style.display = "none";//Remover o PLAY da tela.
     ledRed.style.display = "none";//Apagar o LED RED.
     ledGreen.style.display = "block";//Ativar o LED GREEN.
+    inputTimer.value = "00:00:00";//Lipar a tela antes de tudo.
 
     cron = setInterval(() => {//colocamos o SETINTERVAL na varial CRON para poder manipular ela depois.
         
@@ -123,7 +124,7 @@ function star() {
                 return;// Para a função aqui
             }
         } else {//Se for Cronometro
-            inputTimer.value = "00:00:00";//Lipar a tela antes de tudo.
+            
             tempoSegundos++//adicionado 1 segundo por vez.
             
             if (tempoSegundos >= 359999) {//Limite máximo de tempo permitido quando chegar ele para 99:59:59.
