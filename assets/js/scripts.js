@@ -110,7 +110,7 @@ function star() {
     playButton.style.display = "none";//Remover o PLAY da tela.
     ledRed.style.display = "none";//Apagar o LED RED.
     ledGreen.style.display = "block";//Ativar o LED GREEN.
-    if (checkbox.checked === false) {
+    if (checkbox.checked === false) {//verifica o checkbox.
         inputTimer.value = "00:00:00";//Limpar a tela antes de tudo. 
     }
     
