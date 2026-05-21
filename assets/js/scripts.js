@@ -110,8 +110,10 @@ function star() {
     playButton.style.display = "none";//Remover o PLAY da tela.
     ledRed.style.display = "none";//Apagar o LED RED.
     ledGreen.style.display = "block";//Ativar o LED GREEN.
-    inputTimer.value = "00:00:00";//Lipar a tela antes de tudo. 
-
+    if (checkbox.checked === false) {
+        inputTimer.value = "00:00:00";//Limpar a tela antes de tudo. 
+    }
+    
     cron = setInterval(() => {//colocamos o SETINTERVAL na varial CRON para poder manipular ela depois.
         
         if (checkbox.checked === true) {//Vamos verificar se estamos no TIMER ou CRONOMETRO, se tiver no TIMER VAMOS RODAR.
