@@ -110,7 +110,7 @@ function star() {
     playButton.style.display = "none";//Remover o PLAY da tela.
     ledRed.style.display = "none";//Apagar o LED RED.
     ledGreen.style.display = "block";//Ativar o LED GREEN.
-    inputTimer.value = "00:00:00";//Lipar a tela antes de tudo.
+    inputTimer.value = "00:00:00";//Lipar a tela antes de tudo. 
 
     cron = setInterval(() => {//colocamos o SETINTERVAL na varial CRON para poder manipular ela depois.
         
