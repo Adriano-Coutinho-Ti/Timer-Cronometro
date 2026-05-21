@@ -40,7 +40,7 @@ Um sistema de temporização duplo dinâmico e interativo que funciona como **Cr
     </td>
     <td>
       <p align="center"><b>Animação do Projeto (GIF)</b></p>
-      <img src="https://adriano-coutinho-ti.github.io/Timer-Cronometro/OUTROS/foto01.gif" alt="Funcionamento do Alerta" width="300">
+      <img src="https://adriano-coutinho-ti.github.io/Timer-Cronometro/OUTROS/foto03.gif" alt="Funcionamento do Alerta" width="300">
     </td>
   </tr>
 </table>
