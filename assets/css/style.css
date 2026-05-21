@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+}
+h1 {
+    font-family: Roboto;
+    margin-bottom: 30px;
+}
+.input-Timer {
+    width: 150px;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.checkbox-label {
+    font-size: 19px;
+}
+.checkbox {
+    font-size: 30px;
+}
+.container-cronometro, .container-info {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-info {
+    margin-top: 100px;
+}
+.container-info-interno {
+    background-color: rgb(209, 210, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.cronometro-foto {
+    width: 300px;
+}
+.cronometro-led-red {
+    display: block;
+    position: absolute;
+    width: 300px;
+}
+.cronometro-led-green {
+    display: none;
+    position: absolute;
+    width: 300px;
+}
+.linha-tempo {
+    display: inline-block;
+    position: absolute;
+    font-size: 37px;
+    margin-top: 70px;
+    transform: scaleY(2.2);
+    letter-spacing: 2px;
+    color: black;
+}
+.button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    border-radius: 19px;
+}
+.button:hover {
+    opacity: 0.1;
+}
+.button:active {
+    opacity: 0.2;
+}
+.play {
+    margin-left: -147px;
+    margin-top: 159px;
+}
+.stop {
+    margin-left: 0px;
+    margin-top: 159px;
+}
+.alert {
+    margin-left: 0px;
+    margin-top: 159px;
+}
+.reset {
+    margin-left: 147px;
+    margin-top: 159px;
+}

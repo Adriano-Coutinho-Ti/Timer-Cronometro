@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cronometro - JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-info">
+        <h1>⏱ Cronometro / Timer</h1>
+        <div class="container-info-interno">
+            <label class="checkbox-label">
+                <input class="checkbox" type="checkbox">
+                Timer
+            </label>
+            <input class="input-Timer" type="text" placeholder="00:00:00" value="" disabled>
+        </div>
+
+    </div>
+    <div class="container-cronometro">
+        <img class="cronometro-foto" src="./assets/img/cronometro-base.png" alt="cronometro-foto">
+        <img class="cronometro-led-green" src="./assets/img/led-green.png" alt="cronometro-foto">
+        <img class="cronometro-led-red" src="./assets/img/led-red.png" alt="cronometro-foto">
+        <div class="linha-tempo">00:00:00</div>
+        <button onclick="star()" class="play button"></button>
+        <button onclick="stops()" class="stop button"></button>
+        <button onclick="reset()" class="reset button"></button>
+        <button onclick="stops()" class="alert button"></button>
+
+    </div>
+
+</body>
+<script src="./assets/js/scripts.js"></script>
+
+</html>
