@@ -31,12 +31,16 @@ Um sistema de temporização duplo dinâmico e interativo que funciona como **Cr
 <table>
   <tr>
     <td>
-      <p align="center"><b>Visualização do Projeto (Foto)</b></p>
-      //<img src="#" alt="Layout do Cronômetro" width="300">
+      <p align="center"><b>Visualização do Projeto - TIMER (Foto)</b></p>
+      <img src="https://adriano-coutinho-ti.github.io/Timer-Cronometro/OUTROS/foto01.png" alt="Layout do Cronômetro" width="300">
+    </td>
+   <td>
+      <p align="center"><b>Visualização do Projeto - CRONOMETRO (Foto)</b></p>
+      <img src="https://adriano-coutinho-ti.github.io/Timer-Cronometro/OUTROS/foto01.png" alt="Layout do Cronômetro" width="300">
     </td>
     <td>
-      <p align="center"><b>Animação e Efeitos (GIF)</b></p>
-      //<img src="#" alt="Funcionamento do Alerta" width="300">
+      <p align="center"><b>Animação do Projeto (GIF)</b></p>
+      <img src="https://adriano-coutinho-ti.github.io/Timer-Cronometro/OUTROS/foto01.gif" alt="Funcionamento do Alerta" width="300">
     </td>
   </tr>
 </table>
